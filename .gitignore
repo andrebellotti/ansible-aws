@@ -1,0 +1,20 @@
+# contains credentials used in integration tests
+# ignores all (actual version, backups), unignores the template
+tests/integration/integration_config.yml*
+!tests/integration/integration_config.yml.template
+
+**/tests/output/
+**/tests/runner/
+.pytest_cache
+*.pyc
+
+.venv/
+.idea/
+
+# created temporarily by ansible-test integration
+# here in case the tool doesn't clean up after itself
+metadata-*.json
+
+# documentation
+docs/build
+docs/source/modules

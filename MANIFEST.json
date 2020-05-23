@@ -1,0 +1,34 @@
+{
+ "collection_info": {
+  "namespace": "steampunk",
+  "name": "aws",
+  "version": "0.8.2",
+  "authors": [
+   "XLAB Steampunk <steampunk@xlab.si>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "aws",
+   "ec2",
+   "s3",
+   "amazon",
+   "cloud"
+  ],
+  "description": "A collection of modules for managing your AWS cloud",
+  "license": [],
+  "license_file": "LICENSE",
+  "dependencies": {},
+  "repository": "https://steampunk.si",
+  "documentation": "https://docs.steampunk.si/aws",
+  "homepage": "https://steampunk.si",
+  "issues": null
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "005c423f3b36a7858d3e4f32640159b39b36c06c9a42101011475a93f4d6af7e",
+  "format": 1
+ },
+ "format": 1
+}
